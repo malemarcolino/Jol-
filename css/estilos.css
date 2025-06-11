@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body {
+  height: 100%;
+  font-family: "Jost";sans-serif;
+  background-color:white;}
+
+header {
+  height:100%;
+  background-color:#00285c;
+  padding: 10px;
+  text-align:center;}
+
+header img {
+  width: 100px;}
+
+nav {
+  background-color:#2f4893;
+  padding: 5px;
+  text-align: center;}
+
+ul{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  background-color:#2f4893;}
+
+li{display: inline-block;
+  margin:0 10px;}
+
+li a{
+  font-size:18px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;}
+
+li a:hover:not(.active){
+background-color:#00285c;}
+
+.active {
+background-color:#00285c;}
+
+#caja {
+width: 100%;
+overflow: hidden;}
+
+.izquierda{
+float: left;
+  width: 40%;
+  padding: 80px;
+  box-sizing: border-box;}
+
+.izquierda p{
+  color:#00285c;}
+
+.derecha {
+ float: left;
+  width: 60%;
+  padding: 20px;
+  box-sizing: border-box;}
+
+.derecha img {
+   width: 100%;
+  height: auto;
+  display: block;
+  padding:30px}
+
+h1 {
+  color:#00285c;
+  text-align:left;
+  font-size:30px;}
+
+footer {
+  background-color: #00285c;
+  color: white;
+  padding:20px;
+  overflow: hidden;
+  height: 80px;}
+
+.footer-izq {
+  float: left;
+  width: 50%;
+  text-align: left;}
+
+.footer-der {
+  float: right;
+  width: 50%;
+  text-align: right;}
+
+footer img {
+  width: 80px;
+  margin-bottom: 10px;}
